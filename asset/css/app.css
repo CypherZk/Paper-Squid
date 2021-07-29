@@ -1,0 +1,29 @@
+
+*,*::before,*::after {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+main, #formContainer, label, form {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+main {
+    height: 100vh !important;
+}
+input {
+    text-align: center !important;
+}
+button {
+    margin-top: 5px !important;
+    padding: 3px 10px !important;
+}
+.input-group {
+    max-width: 420px !important;
+}
